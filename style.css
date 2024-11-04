@@ -280,14 +280,84 @@ li {
 
 /* projects */
 .project{               
-    height: 750px;
-    margin-top: 0;
+    background-color: #eee;
+    width: 100%;
+    height: 900px;
+    padding-top: 100px;
 }
 #meat{
     font-size: 23px;
     margin-bottom: 20px;
 }
 
+.project h2{
+    font-size: 40px;
+    color: #f58505;
+}
+.project h1{
+    font-size: 50px;
+
+}
+.project-inner{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+.project .contents{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 50px;
+
+}
+.project .contents li{
+    width: 350px;
+    height: 400px;
+    margin-top: 200px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: 10px 10px 5px grey;
+
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.project h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.project i{
+    color: #f58505;
+    font-size: 35px;
+}
+.project .contents li:hover{
+    background-color: #f58505;
+    color: white;
+    
+}
+.project .contents li:hover i{
+    color: white;
+}
+#school{
+    margin-top: 30px;
+    border: 2px solid #000;/
+}
+#mire{
+    margin-top: 30px;
+    border: 2px solid #000;
+}
+#cfile{
+    margin-top: 30px;
+    border: 2px solid #000;
+}
+#github{
+    margin-top: 20px;
+}
 
 /* contact */
 .contact{
@@ -319,6 +389,8 @@ li {
     padding: 15px;  
     margin-top: 20px;
     border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 5px grey;
 }
 .contact .right{
     width: 800px;
