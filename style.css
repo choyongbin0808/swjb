@@ -44,7 +44,7 @@ li {
     right: 0;
 }
 
-.logo {
+.logo a{
     width: 200px;
     height: 80px;
 
@@ -56,7 +56,7 @@ li {
     color: white;
 }
 
-.logo:hover {
+#logo:hover {
     color: #f58505;
 }
 
@@ -288,21 +288,6 @@ li {
     margin-bottom: 20px;
 }
 
-/* top button */
-.gt{
-    border-radius: 70%;
-    border-color: black;
-    position:fixed;
-    right: 10px;
-    bottom: 15px;
-
-    width: 45px;
-    height: 45px;
-    font-size: 30px;
-}
-#upicon{
-    color: black;
-}
 
 /* contact */
 .contact{
