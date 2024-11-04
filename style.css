@@ -240,7 +240,7 @@ li {
 
 }
 .skills .contents li{
-    width: 350px;
+    width: 370px;
     height: 280px;
     font-size: 20px;
     text-align: center;
@@ -390,7 +390,7 @@ li {
     margin-top: 20px;
     border-radius: 10px;
     border: 2px solid #fff;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px gray;
 }
 .contact .right{
     width: 800px;
