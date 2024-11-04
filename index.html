@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container" id="container">
 
         <!-- header -->
         <div class="header" id="header">
@@ -131,7 +131,7 @@
     <!-- projects -->
 
     <!-- top button -->
-    <button class="gt"><a href="#header"> <i class="fa-solid fa-angle-up" id="upicon"></i></a></button>
+    <button class="gt"><a href="#container"> <i class="fa-solid fa-angle-up" id="upicon"></i></a></button>
     <!-- //top button -->
 
     <!-- contact -->
@@ -173,6 +173,20 @@
         </div>
     </div>
     <!-- //contact -->
+
+    <script>
+        const hedaer = document.querySelector("#header");
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 1100) {
+                header.style.backgroundColor = 'black';
+                header.style.color = 'white'; // 텍스트 색상 변경
+            } else {
+                header.style.backgroundColor = 'transparent';
+                header.style.color = 'black'; // 원래 텍스트 색상으로 변경
+            }
+        });
+    </script>
 
 </body>
 

@@ -38,6 +38,10 @@ li {
 #header{
     /* position: fixed; */
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
@@ -49,6 +53,7 @@ li {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    color: white;
 }
 
 .logo:hover {
@@ -298,6 +303,7 @@ li {
 #upicon{
     color: black;
 }
+
 /* contact */
 .contact{
     width: 1200px;
