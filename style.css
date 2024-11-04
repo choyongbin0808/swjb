@@ -221,7 +221,7 @@ li {
 }
 .skills-inner{
     width: 1200px;
-    height: 700px;
+    height: 800px;
     margin: 0 auto;
 }
 .skills .contents{
@@ -236,7 +236,7 @@ li {
 }
 .skills .contents li{
     width: 350px;
-    height: 250px;
+    height: 280px;
     font-size: 20px;
     text-align: center;
     background-color: #fff;
